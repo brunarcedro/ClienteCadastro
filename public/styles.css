@@ -1,0 +1,128 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #131419;
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-top: 5rem;
+    border-radius: 40px;
+    background: #191A1E;
+    box-shadow: 0px 4px 4px 0px rgba(47, 114, 255, 0.15) inset;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+h2 {
+    color: #5D5F66;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    padding-left: 2rem;
+
+
+}
+
+form {
+  padding-right: 3rem;
+  padding-left: 2.5rem;
+}
+
+label {
+    display: block;
+    color: #5D5F66;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    color: white;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 1px solid #242528;
+    background: #1E2128;
+}
+
+input[type="submit"] {
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    background: #1E2128;
+    color: #5D5F66;
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="submit"]:hover {
+   background: #2F72FF;
+}
+
+input[type="text"],
+input[type="email"] {
+    /* Estilos padrão */
+    width: 100%;
+    padding: 8px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #242528;
+    background: #1E2128;
+
+    /* Adicionando transição */
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    /* Estilos ao focar */
+    border-color: #2F72FF; /* Cor da borda quando em foco */
+    outline: none; /* Remove a borda padrão ao focar */
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    color: white;
+    border: 1px solid #ddd;
+    background-color: #1E2128;
+}
+
+@media (max-width: 768px) {
+    form {
+        width: 80%;
+    }
+}
